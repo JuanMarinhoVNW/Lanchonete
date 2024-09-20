@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header{
+    background-color: #fd9317;
+    display: flex; 
+    // ajusta no eixo X largura
+    justify-content: space-around;
+    // alinhar os itens no eixo y - altura
+    img{
+        width: 10%;
+    }
+
+    ul{
+        display: flex;
+        list-style: none;//retirar estilo da lista 
+        justify-content: space-around;
+        border: solid;
+        width: 60vw;
+    }
+}
